@@ -1,0 +1,6 @@
+#create final executable file exe
+exe: spider.o tempmain.c
+	gcc -o exe tempmain.c spider.o
+#create object file for function
+spider.o: spidermanSpy.c
+	gcc -c spidermanSpy.c -o spider.o

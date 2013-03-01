@@ -1,0 +1,24 @@
+Author: Shiladitya Mandal - 2010C6PS632G
+
+Directory: spiderman/
+
+Files in current working directory: 
+	header.h ( header file)
+	spidermanSpy.c (implementation file)
+	spidermain.c (driver file)
+	Makefile
+	input.txt
+	Readme
+
+How to compile program:	Browse to this directory, and then type the following command: make
+Input file: input.txt --> Make sure your input is entered in this file. No input will be asked on terminal. The format for input can be checked in the sample input file(input.txt)
+
+Description of structure: 
+There is just one implementation file which recursively traverses the array to find MJ at (N,N) where N is size of matrix.	
+
+Bugs:
+1. It is assumed that fork will succeed. 
+2. It is assumed that N >0. Else, unwanted output might come
+
+3. This program assumes that there is only one path from Spiderman to MJ. In case, the matrix provides multiple paths from Spiderman to MJ, the program will not show other paths. It will show any one path. 
+
